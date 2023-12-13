@@ -2,6 +2,9 @@
     "name": "hexlet/composer",
     "description": "the course in the hexlet",
     "autoload": {
+        "files": [
+            "src/Runner.php"
+        ],
         "psr-4": {
             "Hexlet\\Composer\\": "src/"
         }
@@ -13,5 +16,7 @@
         }
     ],
     "license": "Apache-2.0",
-    "require": {}
+    "require": {
+        "tightenco/collect": "^9.52"
+    }
 }
