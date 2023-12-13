@@ -1,0 +1,17 @@
+{
+    "name": "hexlet/composer",
+    "description": "the course in the hexlet",
+    "autoload": {
+        "psr-4": {
+            "Hexlet\\Composer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "AlexDeveloper",
+            "role": "Developer"
+        }
+    ],
+    "license": "Apache-2.0",
+    "require": {}
+}
